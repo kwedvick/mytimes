@@ -73,16 +73,19 @@ h2.lg {
 .column.large {
   width: 630px;
   margin-right: 35px;
+  flex-grow: 1;
 }
 
 .column.medium {
   width: 300px;
   margin-right: 35px;
+  flex-grow: 1;
 }
 
 .column.small {
   width: 240px;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .article {
